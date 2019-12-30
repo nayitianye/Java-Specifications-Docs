@@ -1,4 +1,4 @@
-#### Preface to the Java SE 8 Edition
+#### Java SE 8 版前言
 
 ​         Java® 虚拟机规范的 Java SE 8 版包含自 2011年 Java SE 7 版以来对 Java 虚拟机所做的所有更改。此外，为了与 Java 虚拟机的流行实现保持一致进行了大量的更正和澄清。
 
@@ -8,8 +8,8 @@
 
 ​		Java SE 8 的一个主题是与 Java 虚拟机共同演进 Java 平台库。一个小但是有用的示例是在运行时支持方法参数名：在类文件结构存储此类名称与提供标准 API 以检索它们（Java.lang.relfect.Parameter）是齐头并进的。这说明多年来类文件结构的一个有趣的发展过程：此规范的第一版定义了6个属性，其中三个被认为对 Java 虚拟机至关重要，而此 Java SE 8 版本定义了23 个属性，其中5个属性被认为对 Java 虚拟机至关重要；也就是说，属性现在主要用于支持库和工具，而不是 Java 虚拟机本身。为了帮助读者了解类文件结构，此规范更清楚地记录了每个属性的作用以及施加的约束。
 
-​		Oracle Java 平台小组的许多同事为了这一规范提供了宝贵的支持：Mandy Chung, Joe Darcy、Joel Borggrén-Franck、Staffan Friberg、Yuri Gaevsky、Jon Gibbons, Jeannette Hung、Eric McCorkle、Matherey Nunez、Mark Reinhold, John Rose、Georges Saab、Steve Sides, Bernard Traversat、Michel Trudeau、and Mikael Vidstedt。特别感谢 Dan Heidinga (IBM)、 Karen Kinnear、Keith McGuigan 和 Harold Seigel 在流行 Java 虚拟机的实现中对兼容性和安全性的坚定承诺。		
+​		Oracle Java 平台小组的许多同事为了这一规范提供了宝贵的支持：Mandy Chung, Joe Darcy、Joel Borggrén-Franck、Staffan Friberg、Yuri Gaevsky、Jon Gibbons、Jeannette Hung、Eric McCorkle、Matherey Nunez、Mark Reinhold, John Rose、Georges Saab、Steve Sides、Bernard Traversat、Michel Trudeau、and Mikael Vidstedt。特别感谢 Dan Heidinga (IBM)、 Karen Kinnear、Keith McGuigan 和 Harold Seigel 在流行的 Java 虚拟机的实现中对兼容性和安全性的坚定承诺。		
 
 Alex Buckley
-圣克拉拉 （加利福尼亚州）
+Santa Clara, California 
 2014 年 3 月
